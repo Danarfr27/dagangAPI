@@ -33,9 +33,10 @@ vercel dev
 Catatan keamanan:
 
 - Jangan menyimpan API key di file klien (seperti `index.html`).
-- Pastikan `GENERATIVE_API_KEY` hanya diset di environment Vercel, bukan di kode sumber.
+- Pastikan `GEMINI_API_KEYS` dan 'GEMINI_MODEL' hanya diset di environment Vercel, bukan di kode sumber.
 
 Jika Anda mau, saya bisa:
 
 - Menambahkan validasi lebih ketat pada `api/chat.js`.
 - Menambahkan rate-limit atau caching sederhana untuk mengurangi biaya.
+
